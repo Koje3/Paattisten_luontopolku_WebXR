@@ -536,3 +536,121 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 521.123249 seconds.
+  path: Assets/Samples/Desert/Materials/Cyan.mat
+  artifactKey: Guid(f8d6f757b9e2b4c2290301f6a22ea109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Desert/Materials/Cyan.mat using Guid(f8d6f757b9e2b4c2290301f6a22ea109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bfc17f89373f9b8044320336928309') in 0.038277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/VehicleAssets/CyberTruck/Materials/glassgray.mat
+  artifactKey: Guid(1d63934b687f87d49b726f1abfff6314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VehicleAssets/CyberTruck/Materials/glassgray.mat using Guid(1d63934b687f87d49b726f1abfff6314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bcd7288f737329fa269ff2abb246f2') in 0.030289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VehicleAssets/CyberTruck/Materials/gray.mat
+  artifactKey: Guid(ae533d5a908556543b5a20cea5a3b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VehicleAssets/CyberTruck/Materials/gray.mat using Guid(ae533d5a908556543b5a20cea5a3b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a1e94ea3d66e7a12e4ea89d9473d92') in 0.018756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Joystick Pack/Examples/Ground.mat
+  artifactKey: Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/Ground.mat using Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3032ce2d31850e78325cf7690ef31b36') in 0.037656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Hand_Painted_Nature_Kit_LITE/Materials/Fern01_branch.mat
+  artifactKey: Guid(5e02285271f932b4d97dc7b92e669bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Painted_Nature_Kit_LITE/Materials/Fern01_branch.mat using Guid(5e02285271f932b4d97dc7b92e669bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487ba4f36b6369d65d7035d401159034') in 0.016278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mini Nature Pack/Textures/Grass1.mat
+  artifactKey: Guid(560b6a37366a5364ebab305d0f4ee77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mini Nature Pack/Textures/Grass1.mat using Guid(560b6a37366a5364ebab305d0f4ee77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1d275fa969065022be27dfef40f6f9') in 0.024663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Hand_Painted_Nature_Kit_LITE/Materials/Larch_branch.mat
+  artifactKey: Guid(019361ef072c0d0499ac07e2f3a69f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Painted_Nature_Kit_LITE/Materials/Larch_branch.mat using Guid(019361ef072c0d0499ac07e2f3a69f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6553ae57607e145ff5fc89dfee638e8') in 0.015284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hand_Painted_Nature_Kit_LITE/Textures/Landscape/Grass 1.mat
+  artifactKey: Guid(fe69220506714974eba4416e8731df3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Painted_Nature_Kit_LITE/Textures/Landscape/Grass 1.mat using Guid(fe69220506714974eba4416e8731df3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268ae6da836caef940b757cb70b99823') in 0.015057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Desert/Materials/Green.mat
+  artifactKey: Guid(5af4ced906166d244a01db7543017eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Desert/Materials/Green.mat using Guid(5af4ced906166d244a01db7543017eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321f8996c54680cdd220cf38b322c995') in 0.014619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VehicleAssets/CyberTruck/Materials/glass_cyber.mat
+  artifactKey: Guid(c12637cfe760590448d9fb7d36e9b056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VehicleAssets/CyberTruck/Materials/glass_cyber.mat using Guid(c12637cfe760590448d9fb7d36e9b056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e221fee193ade9a4f3c879aee5872b74') in 0.016117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VehicleAssets/CyberTruck/Materials/light_f.mat
+  artifactKey: Guid(56dba5a5b5b9684468bd4f1c4b743bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VehicleAssets/CyberTruck/Materials/light_f.mat using Guid(56dba5a5b5b9684468bd4f1c4b743bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a1d38053ba69ec30963c83fd49e34b') in 0.029414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.917120 seconds.
+  path: Assets/Hand_Painted_Nature_Kit_LITE/Materials/Pine_branch.mat
+  artifactKey: Guid(2c090ec8819221843abcb401d6038363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Painted_Nature_Kit_LITE/Materials/Pine_branch.mat using Guid(2c090ec8819221843abcb401d6038363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f07cc5e002b46475ac7c8104276fb5') in 0.014227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Desert/Models/pipeorgancactus/Materials/PipeOrganCactus_BaseColor.mat
+  artifactKey: Guid(f1b40784eb7a74d759dedd0d4d43d342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Desert/Models/pipeorgancactus/Materials/PipeOrganCactus_BaseColor.mat using Guid(f1b40784eb7a74d759dedd0d4d43d342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8e8470d6d95903abcff18b5d278d7d') in 0.013085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032047 seconds.
+  path: Assets/Joystick Pack/Examples/Player.mat
+  artifactKey: Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack/Examples/Player.mat using Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d171517895fd4b6ba80e422c3f42d6') in 0.024170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VehicleAssets/CyberTruck/Materials/rubber.mat
+  artifactKey: Guid(10ec856db5e267e41a816998dd633f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VehicleAssets/CyberTruck/Materials/rubber.mat using Guid(10ec856db5e267e41a816998dd633f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce14d1d927aadb513f11fdcc4293d839') in 0.028720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Desert/Materials/Red.mat
+  artifactKey: Guid(bc556dbd8de3200439d7078dfd50e0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Desert/Materials/Red.mat using Guid(bc556dbd8de3200439d7078dfd50e0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9e3162ca31e777b676f7ce8e90da28') in 0.013572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/Trans_Material.mat
+  artifactKey: Guid(a956169eb432f894c9eb2a12d29bc5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Trans_Material.mat using Guid(a956169eb432f894c9eb2a12d29bc5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43de1a58a1c497bdfbf62e8b9baf4cbf') in 0.089659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Desert/Models/cactus/Materials/Saguaro_BaseColor 3.mat
+  artifactKey: Guid(08fea9f35b10b4ac3aca2d24a8d9aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Desert/Models/cactus/Materials/Saguaro_BaseColor 3.mat using Guid(08fea9f35b10b4ac3aca2d24a8d9aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffae35d87555117ad14c47f94db03e1') in 0.012559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.596536 seconds.
+  path: Assets/Samples/Desert/Materials/Yellow.mat
+  artifactKey: Guid(9b6b69eda4b5ced4297cfd7eaa32b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Desert/Materials/Yellow.mat using Guid(9b6b69eda4b5ced4297cfd7eaa32b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdb2706840b932d64c0b93ee309520f') in 0.027046 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
