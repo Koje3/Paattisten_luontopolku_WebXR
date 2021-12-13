@@ -21,8 +21,7 @@ public class CamGyro : MonoBehaviour
 
     private bool EnableGyro()
     {
-        if (SystemInfo.supportsGyroscope)
-        {
+ 
             gyro = Input.gyro;
             gyro.enabled = true;
 
@@ -30,8 +29,6 @@ public class CamGyro : MonoBehaviour
             rot = new Quaternion(0, 0, 1, 0);
 
             return true;
-        }
-        return false;
     }
 
 
