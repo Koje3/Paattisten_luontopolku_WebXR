@@ -13,35 +13,115 @@ MonoBehaviour:
   m_Name: PrefabPalette-Default
   m_EditorClassIdentifier: 
   prefabs:
-  - gameObject: {fileID: 2844615467345799940, guid: d664653f36711d445aa07e5d8a2b7f0d, type: 3}
+  - gameObject: {fileID: 1076506275760083756, guid: 14ddd078f1273234bbe8abd9456f3964, type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 30
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
-      m_UniformBool: 0
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 0.5, y: 0.5, z: 0.5}
+      m_ScaleRangeMax: {x: 1.5, y: 1, z: 1}
+      m_UniformScale: {x: 0.9393941, y: 1.7575756}
+      m_UniformBool: 1
       m_XRotationBool: 0
-      m_YRotationBool: 0
+      m_YRotationBool: 1
       m_ZRotationBool: 0
       m_XScaleBool: 0
       m_YScaleBool: 0
       m_ZScaleBool: 0
-    name: "M\xE4nty"
-  - gameObject: {fileID: 6627020611645091792, guid: 06616735a6e46a94e835ce6f75bbd322, type: 3}
+    name: Kuusi_prefab
+  - gameObject: {fileID: 8875263270523986144, guid: 369c3a0c157891641b16b35041c0419b, type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 7.8
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
-      m_UniformBool: 0
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 0.5, y: 0.5, z: 0.5}
+      m_ScaleRangeMax: {x: 1.5, y: 1, z: 1}
+      m_UniformScale: {x: 2.2727273, y: 3.030303}
+      m_UniformBool: 1
       m_XRotationBool: 0
-      m_YRotationBool: 0
+      m_YRotationBool: 1
       m_ZRotationBool: 0
       m_XScaleBool: 0
       m_YScaleBool: 0
       m_ZScaleBool: 0
-    name: Pine_Low-poly_1
+    name: leppa_prefab
+  - gameObject: {fileID: 4269611719611721962, guid: d8ebe52e98aab774fb817a1bb9bd1b16, type: 3}
+    settings:
+      m_Strength: 21.3
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 0.5, y: 0.5, z: 0.5}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.5, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: "M\xE4nty_prefab"
+  - gameObject: {fileID: 7696703347415011801, guid: 70d4a2fd935076d4fa044a66ea83bb8b, type: 3}
+    settings:
+      m_Strength: 52.4
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 0.5, y: 0.5, z: 0.5}
+      m_ScaleRangeMax: {x: 1.5, y: 1.5, z: 1.5}
+      m_UniformScale: {x: 1.6060606, y: 2.0454545}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Pine_prefab
+  - gameObject: {fileID: 3630639600694810612, guid: 6b01232ed68450a4ca44b8b87d0bcdd1, type: 3}
+    settings:
+      m_Strength: 11
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 0.5, y: 0.5, z: 0.5}
+      m_ScaleRangeMax: {x: 1.5, y: 1.5, z: 1.5}
+      m_UniformScale: {x: 0.3787877, y: 1.3181837}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Tammi_prefab
+  - gameObject: {fileID: 1789358975329929876, guid: a79bfe2fed854504f82de11a289f7cf5, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 270, y: 0, z: 0}
+      m_RotationRangeMax: {x: 270, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.90909094, y: 1.8181822}
+      m_UniformBool: 1
+      m_XRotationBool: 1
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: bush1_prefab
+  - gameObject: {fileID: 5026231502520681753, guid: 1e0fe54deb24149468a808823ab5bcae, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.57575756, y: 0.6969697}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: ferns_prefab
