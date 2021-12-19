@@ -1,0 +1,389 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.6f1 (8c4e826ba445) revision 9195138'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Core' Language: 'fi' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Ohjelmat\Unity\2021.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+Z:/Sekalaiset projektit/Paattisten luontopolku/Paattisten_luontopolku_WebXR
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49981
+Successfully changed project path to: Z:/Sekalaiset projektit/Paattisten luontopolku/Paattisten_luontopolku_WebXR
+Z:/Sekalaiset projektit/Paattisten luontopolku/Paattisten_luontopolku_WebXR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 142.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.6f1 (8c4e826ba445)
+[Subsystems] Discovering subsystems at path D:/Ohjelmat/Unity/2021.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/Sekalaiset projektit/Paattisten luontopolku/Paattisten_luontopolku_WebXR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'D:/Ohjelmat/Unity/2021.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Ohjelmat/Unity/2021.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Ohjelmat/Unity/2021.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Ohjelmat/Unity/2021.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Ohjelmat/Unity/2021.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004436 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 143.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Domain Reload Profiling:
+	ReloadAssembly (794ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (124ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (144ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005091 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image Z:\Sekalaiset projektit\Paattisten luontopolku\Paattisten_luontopolku_WebXR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image Z:\Sekalaiset projektit\Paattisten luontopolku\Paattisten_luontopolku_WebXR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 142.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1523ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1275ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (771ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4274 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (59.9 KB). Loaded Objects now: 4782.
+Memory consumption went from 256.9 MB to 256.9 MB.
+Total: 4.791800 ms (FindLiveObjects: 0.527700 ms CreateObjectMapping: 0.135600 ms MarkObjects: 3.976800 ms  DeleteObjects: 0.149800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18220.212089 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray3/Ceramic 5 6_Metallic_Gray3.png
+  artifactKey: Guid(8010d05f09cb3374b949e2f1b2568c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray3/Ceramic 5 6_Metallic_Gray3.png using Guid(8010d05f09cb3374b949e2f1b2568c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5fe1b2c6ef88d92c99180d4f60d28d') in 0.113393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown2/Ceramic 7 8 9_Albedo_Brown2.png
+  artifactKey: Guid(e9d413eb6bd7a6c438ee1366b0cee497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown2/Ceramic 7 8 9_Albedo_Brown2.png using Guid(e9d413eb6bd7a6c438ee1366b0cee497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaa15c4563b06bda9a50f37457c866e') in 0.021875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown3/Ceramic 7 8 9_Albedo_Brown3.png
+  artifactKey: Guid(5711e327ac4f3a143a92c158f71dcf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown3/Ceramic 7 8 9_Albedo_Brown3.png using Guid(5711e327ac4f3a143a92c158f71dcf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51b7ef92ea2284c806dfb0f4499da5e') in 0.014543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown4/Ceramic 3 4_Normal_Brown4.png
+  artifactKey: Guid(45ec2874babaf184bad58a9cf2f4f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown4/Ceramic 3 4_Normal_Brown4.png using Guid(45ec2874babaf184bad58a9cf2f4f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ec2227d2d46b94e9c9fef6a1e05952') in 0.050033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown5/Ceramic 7 8 9_Metallic_Brown5.png
+  artifactKey: Guid(00be7486b47acf04796fb8d49188e9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown5/Ceramic 7 8 9_Metallic_Brown5.png using Guid(00be7486b47acf04796fb8d49188e9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a009a0f99bc1a2c126a3997e0a7af6ac') in 0.017321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown4/Ceramic 7 8 9_Normal_Brown4.png
+  artifactKey: Guid(bea6df2a962b4794a8e4e262ed27e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown4/Ceramic 7 8 9_Normal_Brown4.png using Guid(bea6df2a962b4794a8e4e262ed27e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978acd02a5eb3e2fde51af94823789c4') in 0.021660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Gray1/ceramic 3 broken_Normal_Gray1.png
+  artifactKey: Guid(f365bbcf457cfa646bcb03da256fc810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Gray1/ceramic 3 broken_Normal_Gray1.png using Guid(f365bbcf457cfa646bcb03da256fc810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6f0ed0ac6f734682f59c810dbaf613') in 0.019228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown4/Ceramic 7 8 9_Metallic_Brown4.png
+  artifactKey: Guid(6858e847f5838f749a3d6c37d9693820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown4/Ceramic 7 8 9_Metallic_Brown4.png using Guid(6858e847f5838f749a3d6c37d9693820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bec6839e516d5307dbc8ff0023cceb') in 0.016627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown3/Ceramic 5 6_Metallic_Brown3.png
+  artifactKey: Guid(d8b47e04b34da314aa3d7d4718175396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown3/Ceramic 5 6_Metallic_Brown3.png using Guid(d8b47e04b34da314aa3d7d4718175396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2d52e5df19d258353309b0bbe5c383') in 0.017979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green1/Ceramic 7 8 9_Metallic_Green1.png
+  artifactKey: Guid(2a23e1515273545489584829c7614bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green1/Ceramic 7 8 9_Metallic_Green1.png using Guid(2a23e1515273545489584829c7614bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769224c903910cc6d7d4bd692a86fb34') in 0.016487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown2/Ceramic 5 6_Metallic_Brown2.png
+  artifactKey: Guid(64ce42a3291f7aa4c891dc66990c35b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown2/Ceramic 5 6_Metallic_Brown2.png using Guid(64ce42a3291f7aa4c891dc66990c35b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8204ff6b14f3ed33dc8b162108981154') in 0.016433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown3/Ceramic 3 4_Metallic_Brown3.png
+  artifactKey: Guid(7681c36f4deb7ff4497db5a111eb3749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown3/Ceramic 3 4_Metallic_Brown3.png using Guid(7681c36f4deb7ff4497db5a111eb3749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f14cef4b9559d51ed20b0b452fd642c') in 0.017867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown4/Ceramic 5 6_Metallic_Brown4.png
+  artifactKey: Guid(12b33124ce6d5894b8b6f8dd7ebe82e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown4/Ceramic 5 6_Metallic_Brown4.png using Guid(12b33124ce6d5894b8b6f8dd7ebe82e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e9d77d41c7661720e7e7923c2b0702') in 0.016879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown3/Ceramic 5 6_Normal_Brown3.png
+  artifactKey: Guid(1195a9f14b50d1542a1025b3953647e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown3/Ceramic 5 6_Normal_Brown3.png using Guid(1195a9f14b50d1542a1025b3953647e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019d88a4edfa969f053b4173535e1ca4') in 0.018054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown3/Ceramic 7 broken_Normal_Browb3.png
+  artifactKey: Guid(7d011a818a398134e986456abf5f204a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown3/Ceramic 7 broken_Normal_Browb3.png using Guid(7d011a818a398134e986456abf5f204a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac0118a0ecdb3c12f69b7a5a9cd1c0e') in 0.019780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green1/Ceramic 7 8 9_Albedo_Green1.png
+  artifactKey: Guid(8c2150e50a0901e498eb0281e642e974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green1/Ceramic 7 8 9_Albedo_Green1.png using Guid(8c2150e50a0901e498eb0281e642e974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c399dd8284f9ac54be2b06b0e3a2fba') in 0.017287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray2/Ceramic 3 4_Normal_Gray2.png
+  artifactKey: Guid(93f6bf699310a6747b1068f0ff503ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray2/Ceramic 3 4_Normal_Gray2.png using Guid(93f6bf699310a6747b1068f0ff503ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228f7f17397438fd40758dde9ed62261') in 0.019756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Gray1/Ceramic 7 broken_Albedo_Gray1.png
+  artifactKey: Guid(bf062d16e0f164c4aa15dd7c367bd1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Gray1/Ceramic 7 broken_Albedo_Gray1.png using Guid(bf062d16e0f164c4aa15dd7c367bd1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169fd9181fedc1799e6445fac59088b8') in 0.018791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown3/Ceramic 7 broken_Metallic_Brown3.png
+  artifactKey: Guid(2833208d1b5731340aace90e05d2247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown3/Ceramic 7 broken_Metallic_Brown3.png using Guid(2833208d1b5731340aace90e05d2247e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f72d9e4965af59cfe2b56eb2f1aa0e6') in 0.016320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray2/Ceramic 5 6_Albedo_Gray2.png
+  artifactKey: Guid(c1f47e310c235a84f8421bcca0b543bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray2/Ceramic 5 6_Albedo_Gray2.png using Guid(c1f47e310c235a84f8421bcca0b543bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa4f3eea457362d6bf99ae289823de8') in 0.019265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown4/Ceramic 3 4_Albedo_Brown4.png
+  artifactKey: Guid(8b0fd8e795440a24e87d160f1f6be4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown4/Ceramic 3 4_Albedo_Brown4.png using Guid(8b0fd8e795440a24e87d160f1f6be4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18ffed252c562b1bc95608b7f0154b9') in 0.019954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown4/ceramic 3 broken_Metallic_Brown4.png
+  artifactKey: Guid(656727ad0efc54042980241059ad2b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown4/ceramic 3 broken_Metallic_Brown4.png using Guid(656727ad0efc54042980241059ad2b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a2905bddd2f2d57e0a73927dfea17e') in 0.020486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Green1/Ceramic 7 broken_Albedo_Green1.png
+  artifactKey: Guid(8b716f68122144545bfdd0eb6104879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Green1/Ceramic 7 broken_Albedo_Green1.png using Guid(8b716f68122144545bfdd0eb6104879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cd64ec719e924dcf685131bd0f3c2e') in 0.018407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown1/Ceramic 5 6_Albedo_Brown1.png
+  artifactKey: Guid(c415cd6bd2af79e4591c640f00242dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown1/Ceramic 5 6_Albedo_Brown1.png using Guid(c415cd6bd2af79e4591c640f00242dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e28f85aec712af5900d9ef6c0e5134b') in 0.017906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown1/ceramic 3 broken_Metallic_Brown1.png
+  artifactKey: Guid(1492cc74502bb72448349a1834129eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown1/ceramic 3 broken_Metallic_Brown1.png using Guid(1492cc74502bb72448349a1834129eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8777beed8e91a93b6df75d96c246ab9b') in 0.015570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown2/Ceramic 3 4_Metallic_Brown2.png
+  artifactKey: Guid(d6b3fa28bc05ab041ad8dcec21b71438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown2/Ceramic 3 4_Metallic_Brown2.png using Guid(d6b3fa28bc05ab041ad8dcec21b71438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00581faeaddb6c6481c09690625ba69') in 0.016548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown2/Ceramic 7 broken_Albedo_Brown2.png
+  artifactKey: Guid(55b72269d64dbda49816729962d17538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown2/Ceramic 7 broken_Albedo_Brown2.png using Guid(55b72269d64dbda49816729962d17538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33a14db9234ba59b54428336a584fbf') in 0.015755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray1/Ceramic 7 8 9_Normal_Gray1.png
+  artifactKey: Guid(382569c3fa661a944897433704129c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray1/Ceramic 7 8 9_Normal_Gray1.png using Guid(382569c3fa661a944897433704129c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05ec62f12bffc1e141b9d6b17347f23') in 0.018346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Green2/ceramic 3 broken_Metallic_Green2.png
+  artifactKey: Guid(95a285c4101eb164891d138a0bc0d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Green2/ceramic 3 broken_Metallic_Green2.png using Guid(95a285c4101eb164891d138a0bc0d78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762ceea6613a2e52ee0490a9b505018f') in 0.015828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray1/Ceramic 7 8 9_Albedo_Gray1.png
+  artifactKey: Guid(da374f7e67a255146b288d5b09c4b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray1/Ceramic 7 8 9_Albedo_Gray1.png using Guid(da374f7e67a255146b288d5b09c4b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e716d913cda4dd791eb15ebf3a1907') in 0.018976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown2/Ceramic 7 8 9_Metallic_Brown2.png
+  artifactKey: Guid(03e8acda4749ce5418994ef9c1a31f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown2/Ceramic 7 8 9_Metallic_Brown2.png using Guid(03e8acda4749ce5418994ef9c1a31f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355a04b7eff60cec2799e3edafb26843') in 0.017324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown4/Ceramic 3 4_Metallic_Brown4.png
+  artifactKey: Guid(00138b28db870f34abb4ca676ba539fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown4/Ceramic 3 4_Metallic_Brown4.png using Guid(00138b28db870f34abb4ca676ba539fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea385a111e09af880fd03aa896dc4a5') in 0.015370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green2/Ceramic 7 8 9_Normal_Green2.png
+  artifactKey: Guid(408bdbadcdc26f44fa08b585a4592b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green2/Ceramic 7 8 9_Normal_Green2.png using Guid(408bdbadcdc26f44fa08b585a4592b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4f0af6a447376766fa47d8c8bf265e') in 0.020300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green2/Ceramic 7 8 9_Albedo_Green2.png
+  artifactKey: Guid(8a53bc9abe9a23342abe85bc53e4b28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green2/Ceramic 7 8 9_Albedo_Green2.png using Guid(8a53bc9abe9a23342abe85bc53e4b28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63be549ea67c8abbd119582bd47a37ad') in 0.018266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Green1/Ceramic 5 6_Metallic_Green1.png
+  artifactKey: Guid(5aeeda9104fae524194dee1b4fb4bca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Green1/Ceramic 5 6_Metallic_Green1.png using Guid(5aeeda9104fae524194dee1b4fb4bca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5f2acd5f915e7c1dbcfcc9b14fc2ed') in 0.017952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Gray3/ceramic 3 broken_Metallic_Gray3.png
+  artifactKey: Guid(af94b4405c033124082bcf6bbe4ab7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Gray3/ceramic 3 broken_Metallic_Gray3.png using Guid(af94b4405c033124082bcf6bbe4ab7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28185e3bd680cdbad355c1e296bd6c3a') in 0.016721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown4/Ceramic 7 broken_Albedo_Brown4.png
+  artifactKey: Guid(9fdd0605f596d7146ae9598343549369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown4/Ceramic 7 broken_Albedo_Brown4.png using Guid(9fdd0605f596d7146ae9598343549369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c97ad2967e8022b213931c37c32e85') in 0.019465 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

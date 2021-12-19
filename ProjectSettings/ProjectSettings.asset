@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Forest_webAR
+  companyName: Koje3D
+  productName: Paattisten_luontopolku_WebXR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: b024b6861cc664c4fa2914932d387562, type: 3}
+  - logo: {fileID: 21300000, guid: 0dbf039b212b7db44b6699d736f1f9da, type: 3}
     duration: 4
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -137,9 +137,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: 11400000, guid: de7844097bfda414eb8dedfd79f1d9b2, type: 2}
-  - {fileID: -9126163713537543399, guid: af81c6fe1ed434b4cbef1417785d9d00, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -275,7 +273,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: b024b6861cc664c4fa2914932d387562, type: 3}
+      m_Icon: {fileID: 2800000, guid: 0dbf039b212b7db44b6699d736f1f9da, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -351,7 +349,7 @@ PlayerSettings:
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
   m_TemplateCustomTags:
-    DESCRIPTION: 
+    DESCRIPTION: Paattisten luontopolku
     WEBXR_POLYFILL_CONFIG: 
   mobileMTRendering:
     Android: 1
