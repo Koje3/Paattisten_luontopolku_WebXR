@@ -1116,3 +1116,1532 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8351.348884 seconds.
+  path: Assets/Materials/Fur textures pack/Fur 01/Fur pattern 01.mat
+  artifactKey: Guid(da58971c363474248aafb917982d9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fur textures pack/Fur 01/Fur pattern 01.mat using Guid(da58971c363474248aafb917982d9116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9675a42dcc020a33082dbd16f858ef5') in 0.103209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Materials/Fur textures pack/Fur 02/Fur pattern 02.mat
+  artifactKey: Guid(13240c2d1b601304daa22bb682371b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fur textures pack/Fur 02/Fur pattern 02.mat using Guid(13240c2d1b601304daa22bb682371b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36603f39abd1a279fd7d7ae9cd08c34b') in 0.019761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.250049 seconds.
+  path: Assets/VehicleAssets/CyberTruck/texMain.png
+  artifactKey: Guid(22a933f4cb2deb8478484a10eb9f2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VehicleAssets/CyberTruck/texMain.png using Guid(22a933f4cb2deb8478484a10eb9f2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebc45f07529f18105665922d1f1ded7') in 0.034750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.873180 seconds.
+  path: Assets/MODELS/Mänty2/TexturesCom_BarkDecidious0194_1_seamless_S.jpg
+  artifactKey: Guid(c84d15a9fdd9e07478e7a49ae0686590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Mänty2/TexturesCom_BarkDecidious0194_1_seamless_S.jpg using Guid(c84d15a9fdd9e07478e7a49ae0686590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d1cbedf32600e62190e34594ed3d3e') in 0.113553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.017277 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown2/Ceramic 1 2_Albedo_Brown2.png
+  artifactKey: Guid(8559a61817115f34a9c40367e730e8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown2/Ceramic 1 2_Albedo_Brown2.png using Guid(8559a61817115f34a9c40367e730e8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8868a6c08f45bcb271581c712d5f45') in 0.017187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown4/Ceramic 1 2_Albedo_Brown4.png
+  artifactKey: Guid(521e8350d84937c4196a0ae61b0dbacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown4/Ceramic 1 2_Albedo_Brown4.png using Guid(521e8350d84937c4196a0ae61b0dbacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d17385470143f357c18c61a893d4a1') in 0.019308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown1/Ceramic 1 2_Metallic_Brown1.png
+  artifactKey: Guid(41fe50847c3b09946b9d9c393c102a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown1/Ceramic 1 2_Metallic_Brown1.png using Guid(41fe50847c3b09946b9d9c393c102a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0b4fabcf073efd06a47ba08553c8b1') in 0.019024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Gray2/Ceramic 1 2_Albedo_Gray2.png
+  artifactKey: Guid(a68af4895c5b2424b848ad13fdc270b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Gray2/Ceramic 1 2_Albedo_Gray2.png using Guid(a68af4895c5b2424b848ad13fdc270b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e81db8971e182305af51b3f99e4fad0') in 0.020300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Gray2/Ceramic 1 2_Metallic_Gray2.png
+  artifactKey: Guid(851e6135b5cb0b440901d5cc7498c406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Gray2/Ceramic 1 2_Metallic_Gray2.png using Guid(851e6135b5cb0b440901d5cc7498c406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d82d62824237103828e9d3874b2b96c') in 0.016934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Green2/Ceramic 1 2_Albedo_Green2.png
+  artifactKey: Guid(2fde2e6d36de879469897b14815a4f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Green2/Ceramic 1 2_Albedo_Green2.png using Guid(2fde2e6d36de879469897b14815a4f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63d6c9a545c1e47ec757933ef3cbc30') in 0.017604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown2/Ceramic 1 2_Normal_Brown2.png
+  artifactKey: Guid(c62a7735c8af24043a24a9922c0c3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown2/Ceramic 1 2_Normal_Brown2.png using Guid(c62a7735c8af24043a24a9922c0c3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d18324b2c19ed3d26770e41805e4a2') in 0.020727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown3/Ceramic 1 2_Normal_Brown3.png
+  artifactKey: Guid(c83a34aa49f528445a2674b928d8b458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown3/Ceramic 1 2_Normal_Brown3.png using Guid(c83a34aa49f528445a2674b928d8b458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc15699be97baebfb9376242e6aee78') in 0.020402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown3/Ceramic 1 2_Albedo_Brown3.png
+  artifactKey: Guid(663de4d6969a9994db2c2b60be570227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown3/Ceramic 1 2_Albedo_Brown3.png using Guid(663de4d6969a9994db2c2b60be570227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1f331010ea5d31c4727989dc843c93') in 0.019850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown3/Ceramic 1 2_Metallic_Brown3.png
+  artifactKey: Guid(4e436d7943bf0b74e971f11625334bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown3/Ceramic 1 2_Metallic_Brown3.png using Guid(4e436d7943bf0b74e971f11625334bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974612099fa466ae9e838c677347a800') in 0.017730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Gray3/Ceramic 1 2_Albedo_Gray3.png
+  artifactKey: Guid(f1dbff82722b9724bb95996e36df6eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Gray3/Ceramic 1 2_Albedo_Gray3.png using Guid(f1dbff82722b9724bb95996e36df6eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428b72198e6bf2dd9418418d0506202c') in 0.016976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Gray1/Ceramic 1 2_Metallic_Gray1.png
+  artifactKey: Guid(5f8d060f0f797824fb29d66b5e78c83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Gray1/Ceramic 1 2_Metallic_Gray1.png using Guid(5f8d060f0f797824fb29d66b5e78c83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43c5f1bf58d1cf6bb1404974fd87a5b') in 0.017934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown5/Ceramic 1 2_Metallic_Brown5.png
+  artifactKey: Guid(e0ba0d00a31c5d84395c9fdca9675984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown5/Ceramic 1 2_Metallic_Brown5.png using Guid(e0ba0d00a31c5d84395c9fdca9675984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b89ab9ae421f8fb2ad9c050598a1aed') in 0.019095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown5/Ceramic 1 2_Albedo_Brown5.png
+  artifactKey: Guid(876ae42af3aff624388f17c351e0484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Brown5/Ceramic 1 2_Albedo_Brown5.png using Guid(876ae42af3aff624388f17c351e0484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861bc601f6a0dcc74e3d779bb6b12e0c') in 0.018701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451510 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Green2/Ceramic 1 2_Normal_Green2.png
+  artifactKey: Guid(0a78bc9426d92b64d98d33a558e5cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 1 2/Texture/Green2/Ceramic 1 2_Normal_Green2.png using Guid(0a78bc9426d92b64d98d33a558e5cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f89b549151c96ca0e0d7945835b1039') in 0.019628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray1/Ceramic 3 4_Albedo_Gray1.png
+  artifactKey: Guid(08258a1793a63144384c9ea234fb131f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray1/Ceramic 3 4_Albedo_Gray1.png using Guid(08258a1793a63144384c9ea234fb131f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c2962c7fd5f03531d2d27f31e97f79') in 0.018022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown1/Ceramic 3 4_Albedo_Brown1.png
+  artifactKey: Guid(9a81c04cbf6856a4b94e93138d0a9ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown1/Ceramic 3 4_Albedo_Brown1.png using Guid(9a81c04cbf6856a4b94e93138d0a9ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b402ebe2377cb5f1cc08c4213ae742') in 0.016415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown2/Ceramic 3 4_Albedo_Brown2.png
+  artifactKey: Guid(5954fe3d5da03fc4ea167c46744f6b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown2/Ceramic 3 4_Albedo_Brown2.png using Guid(5954fe3d5da03fc4ea167c46744f6b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da105bce6ba2474da7ffe02f5b513cfd') in 0.018081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Green1/Ceramic 3 4_Normal_Green1.png
+  artifactKey: Guid(269e7c204bb754b4fad79d3e38af8efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Green1/Ceramic 3 4_Normal_Green1.png using Guid(269e7c204bb754b4fad79d3e38af8efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef950a88da6fcf8f7006acaf6800e9a5') in 0.017465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Green2/Ceramic 3 broken_Albedo_Green2.png
+  artifactKey: Guid(91016cf08772ab047a6573d05660d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Green2/Ceramic 3 broken_Albedo_Green2.png using Guid(91016cf08772ab047a6573d05660d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e3e36c43e9b933b301117dcbd716cd') in 0.016548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown3/Ceramic 3 broken_Albedo_Brown3.png
+  artifactKey: Guid(7a8e252571f311e4ca7b7acde26a42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown3/Ceramic 3 broken_Albedo_Brown3.png using Guid(7a8e252571f311e4ca7b7acde26a42b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9138484799cc1c402764c23ca624bc') in 0.018668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Gray3/Ceramic 3 broken_Albedo_Gray3.png
+  artifactKey: Guid(9800c5c80ef203d42beee2b4a2462462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Gray3/Ceramic 3 broken_Albedo_Gray3.png using Guid(9800c5c80ef203d42beee2b4a2462462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97daa986d78d973953233aca95986b6e') in 0.018882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown5/Ceramic 3 4_Metallic_Brown5.png
+  artifactKey: Guid(dc2e7af15525e254ab9a0373237153c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown5/Ceramic 3 4_Metallic_Brown5.png using Guid(dc2e7af15525e254ab9a0373237153c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ce2cac8d7002a5301f8f26b25293fb') in 0.023168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown5/Ceramic 3 4_Normal_Brown5.png
+  artifactKey: Guid(5bc0686240924c14399b55fce9c4ce90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown5/Ceramic 3 4_Normal_Brown5.png using Guid(5bc0686240924c14399b55fce9c4ce90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882f93c874f2d6caf648e6838c8b97c3') in 0.023392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown2/ceramic 3 broken_Metallic_Brown2.png
+  artifactKey: Guid(85a34add441d6664d8987ca371372695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown2/ceramic 3 broken_Metallic_Brown2.png using Guid(85a34add441d6664d8987ca371372695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6806049530a4af9636c78bb9b27797') in 0.020689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown3/ceramic 3 broken_Normal_Brown3.png
+  artifactKey: Guid(85716727ee2ee5c4aa07f205d6e3690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown3/ceramic 3 broken_Normal_Brown3.png using Guid(85716727ee2ee5c4aa07f205d6e3690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31b86d9ace0425a0e95e82831c319d3') in 0.019765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Green2/Ceramic 5 6_Albedo_Green2.png
+  artifactKey: Guid(e3898dd61d6a8e646a347e438ce1b70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Green2/Ceramic 5 6_Albedo_Green2.png using Guid(e3898dd61d6a8e646a347e438ce1b70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc1ca4e3047c7e9b149c2eb0aa7ffaf') in 0.018221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray1/Ceramic 5 6_Metallic_Gray1.png
+  artifactKey: Guid(eea8619695fa4e1418cd6816f0b09a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray1/Ceramic 5 6_Metallic_Gray1.png using Guid(eea8619695fa4e1418cd6816f0b09a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4038a8917d0e209a9e6da7b46945a31b') in 0.018947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray3/Ceramic 7 8 9_Albedo_Gray3.png
+  artifactKey: Guid(5079598a8fe11834694ee1e57ae8e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray3/Ceramic 7 8 9_Albedo_Gray3.png using Guid(5079598a8fe11834694ee1e57ae8e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4547c8f0ac281642bba91972147193') in 0.017937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray2/Ceramic 7 8 9_Normal_Gray2.png
+  artifactKey: Guid(1a68a7831e767474c9c6bdd8f06c4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray2/Ceramic 7 8 9_Normal_Gray2.png using Guid(1a68a7831e767474c9c6bdd8f06c4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27006889985ab59ed66b16dc9a5d5f6a') in 0.022307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown5/Ceramic 5 6_Albedo_Brown5.png
+  artifactKey: Guid(31d70d52fdd64b644bc032f00bd18021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown5/Ceramic 5 6_Albedo_Brown5.png using Guid(31d70d52fdd64b644bc032f00bd18021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262be6a5c8f036804a7db8354b9b27fd') in 0.016775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown2/Ceramic 5 6_Normal_Brown2.png
+  artifactKey: Guid(a3accac8d140f4a4ca01ce4a694ff555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown2/Ceramic 5 6_Normal_Brown2.png using Guid(a3accac8d140f4a4ca01ce4a694ff555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ad11d82b8c3efe4a57a16056e1cfb6') in 0.021422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray1/Ceramic 7 8 9_Metallic_Gray1.png
+  artifactKey: Guid(e19edb3953878cd41af4f13ff26764bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Gray1/Ceramic 7 8 9_Metallic_Gray1.png using Guid(e19edb3953878cd41af4f13ff26764bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bfa902188cf19c03b6433705e74c3a') in 0.015380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown3/Ceramic 3 4_Normal_Brown3.png
+  artifactKey: Guid(4a650fa078bd9e744b8a914b574f6ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown3/Ceramic 3 4_Normal_Brown3.png using Guid(4a650fa078bd9e744b8a914b574f6ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380f2d5d5c4168e86f4dcd8349f2e06e') in 0.019305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray3/Ceramic 3 4_Normal_Gray3.png
+  artifactKey: Guid(28acd8ccf4603604db4a4f4b9798269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray3/Ceramic 3 4_Normal_Gray3.png using Guid(28acd8ccf4603604db4a4f4b9798269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993d92d0dd4329bd943ac49e0d3a35a0') in 0.019601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown4/ceramic 3 broken_Normal_Brown4.png
+  artifactKey: Guid(75bb721b7d8f16b45937e52b47c8fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown4/ceramic 3 broken_Normal_Brown4.png using Guid(75bb721b7d8f16b45937e52b47c8fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbdd74c9cd517013627d87089dc663f') in 0.020198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown2/Ceramic 7 8 9_Normal_Brown2.png
+  artifactKey: Guid(0ae928d0b9b3850478f50fc93cd22f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown2/Ceramic 7 8 9_Normal_Brown2.png using Guid(0ae928d0b9b3850478f50fc93cd22f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9c5b88db63691624da3caf2f7a6a3e') in 0.020828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Gray3/ceramic 3 broken_Normal_Gray3.png
+  artifactKey: Guid(640795cc2a5b5f943a3db8c529dd2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Gray3/ceramic 3 broken_Normal_Gray3.png using Guid(640795cc2a5b5f943a3db8c529dd2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a964e140e9225310b7c18f030868d3bf') in 0.018538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Green2/Ceramic 5 6_Normal_Green2.png
+  artifactKey: Guid(175890133b2702641a74eac76735c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Green2/Ceramic 5 6_Normal_Green2.png using Guid(175890133b2702641a74eac76735c5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c3ddf4bc660b40ec2c7c91f8259708') in 0.017852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray2/Ceramic 3 4_Metallic_Gray2.png
+  artifactKey: Guid(1132218254d39e6478740d5a9e3a4aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray2/Ceramic 3 4_Metallic_Gray2.png using Guid(1132218254d39e6478740d5a9e3a4aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ff10143e5edc6b3ba3c7a804f7e1ff') in 0.016080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Gray3/Ceramic 7 broken_Albedo_Gray3.png
+  artifactKey: Guid(c22834753b9089e4e83f7c8b84c3bff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Gray3/Ceramic 7 broken_Albedo_Gray3.png using Guid(c22834753b9089e4e83f7c8b84c3bff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fb11ac184798291dad1c53f0ef1e80') in 0.018185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray2/Ceramic 3 4_Albedo_Gray2.png
+  artifactKey: Guid(f772e3eeb3c60ac49beb3abda1c6b4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray2/Ceramic 3 4_Albedo_Gray2.png using Guid(f772e3eeb3c60ac49beb3abda1c6b4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b75612aa289ac4e5a81bd6de64f3d22') in 0.017334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green1/Ceramic 7 8 9_Normal_Green1.png
+  artifactKey: Guid(33a03645750f1304e92bd0aa6ce70b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Green1/Ceramic 7 8 9_Normal_Green1.png using Guid(33a03645750f1304e92bd0aa6ce70b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4e0bd8cb70a80d27f05e3f5e537338') in 0.020251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown5/Ceramic 7 broken_Metallic_Brown5.png
+  artifactKey: Guid(3b2ea038df42e6445b62d5b4917b394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown5/Ceramic 7 broken_Metallic_Brown5.png using Guid(3b2ea038df42e6445b62d5b4917b394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1003e1ec817e2d9a8a56cc5403e90fb0') in 0.017917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Green2/ceramic 3 broken_Normal_Green2.png
+  artifactKey: Guid(7c32e8e47db16e846bfb0ceaaa0b850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Green2/ceramic 3 broken_Normal_Green2.png using Guid(7c32e8e47db16e846bfb0ceaaa0b850d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bc1bc322288a59a60583bcacb2d1e2') in 0.020857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Green1/Ceramic 7 broken_Metallic_Green1.png
+  artifactKey: Guid(be02bcdd1a3655646844b0a0580df2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Green1/Ceramic 7 broken_Metallic_Green1.png using Guid(be02bcdd1a3655646844b0a0580df2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473d5612a1a7c34916085ef137c41b5c') in 0.018575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown1/Ceramic 7 8 9_Metallic_Brown1.png
+  artifactKey: Guid(92dbc2e6114a917459b1df5b5e4df30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown1/Ceramic 7 8 9_Metallic_Brown1.png using Guid(92dbc2e6114a917459b1df5b5e4df30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c4cce8ffea27c16ea5e191ee081ab4') in 0.019351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Green2/Ceramic 7 broken_Albedo_Green2.png
+  artifactKey: Guid(a4e90cf8d5a838f44804699fb50294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Green2/Ceramic 7 broken_Albedo_Green2.png using Guid(a4e90cf8d5a838f44804699fb50294b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee173c33cf7dd3834e7a503b6ca2d59') in 0.017180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown4/Ceramic 5 6_Normal_Brown4.png
+  artifactKey: Guid(24b9fb50e14657c4188fb6f7e2051f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown4/Ceramic 5 6_Normal_Brown4.png using Guid(24b9fb50e14657c4188fb6f7e2051f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a512cefafb415ef018d495c7de71d74') in 0.023378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown1/Ceramic 5 6_Normal_Brown1.png
+  artifactKey: Guid(e1da7845e53ada143a3374ac17a26b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown1/Ceramic 5 6_Normal_Brown1.png using Guid(e1da7845e53ada143a3374ac17a26b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2f007ccb7236ddb5b772a09c8e0544') in 0.019238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray2/Ceramic 5 6_Metallic_Gray2.png
+  artifactKey: Guid(c539cf91b9c8c0b448a5864e5587215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray2/Ceramic 5 6_Metallic_Gray2.png using Guid(c539cf91b9c8c0b448a5864e5587215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a587f1275582cf5bf958cb613835b2a') in 0.017795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown5/Ceramic 5 6_Metallic_Brown5.png
+  artifactKey: Guid(0795eadaf15148d429a7e20403fcf62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown5/Ceramic 5 6_Metallic_Brown5.png using Guid(0795eadaf15148d429a7e20403fcf62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ca0c6a8afb67e204d62fbf054ac083') in 0.016896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown5/Ceramic 3 broken_Albedo_Brown5.png
+  artifactKey: Guid(120f01740dd3f2b46a662469f4dfee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown5/Ceramic 3 broken_Albedo_Brown5.png using Guid(120f01740dd3f2b46a662469f4dfee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208ba9d1e0c8cbd451ede8661fe7c6d4') in 0.020379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown3/ceramic 3 broken_Metallic_Brown3.png
+  artifactKey: Guid(7f613710442500d4e9d26f41524622b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown3/ceramic 3 broken_Metallic_Brown3.png using Guid(7f613710442500d4e9d26f41524622b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974b476a09745ae406f99597b2478129') in 0.016699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown1/Ceramic 7 8 9_Albedo_Brown1.png
+  artifactKey: Guid(40eab9aa2d4642148897aa205dfb4650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown1/Ceramic 7 8 9_Albedo_Brown1.png using Guid(40eab9aa2d4642148897aa205dfb4650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6c2a2a0648885265b868f432b1a512') in 0.023323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray1/Ceramic 3 4_Metallic_Gray1.png
+  artifactKey: Guid(1f337f9a5034d204d9a1e2268d76c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray1/Ceramic 3 4_Metallic_Gray1.png using Guid(1f337f9a5034d204d9a1e2268d76c449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd59db1213a782237e40830dbf3ac7a') in 0.025589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown2/Ceramic 5 6_Albedo_Brown2.png
+  artifactKey: Guid(d0467dcb9636c544980f4aa33f55df3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Brown2/Ceramic 5 6_Albedo_Brown2.png using Guid(d0467dcb9636c544980f4aa33f55df3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834400d0d59198f6778be393c1e6ec80') in 0.018512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Gray3/Ceramic 7 broken_Metallic_Gray3.png
+  artifactKey: Guid(24d52438f809ad14fa2958c88169c4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Gray3/Ceramic 7 broken_Metallic_Gray3.png using Guid(24d52438f809ad14fa2958c88169c4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba504fc2ba158d2fe747aaf4d479f7fa') in 0.017093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown3/Ceramic 7 broken_Albedo_Brown3.png
+  artifactKey: Guid(49d6d0ed8ec9ae042857210c156d5704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 broken/Texture/Brown3/Ceramic 7 broken_Albedo_Brown3.png using Guid(49d6d0ed8ec9ae042857210c156d5704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7372f6055e45a7ec46ef073b825f20') in 0.020005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown5/Ceramic 7 8 9_Normal_Brown5.png
+  artifactKey: Guid(4139b5d2f5451c745a1fe1e0b7e55160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown5/Ceramic 7 8 9_Normal_Brown5.png using Guid(4139b5d2f5451c745a1fe1e0b7e55160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec95d75fda431f385fdc4c2835961816') in 0.020439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown4/Ceramic 3 broken_Albedo_Brown4.png
+  artifactKey: Guid(8299ec897b8a9144ab76b3cb2e8e5dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown4/Ceramic 3 broken_Albedo_Brown4.png using Guid(8299ec897b8a9144ab76b3cb2e8e5dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69a2e10830a95ca0851f3df21bd4882') in 0.019932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray1/Ceramic 3 4_Normal_Gray1.png
+  artifactKey: Guid(6c7cfd9e516f5754c95ceef4b21c6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Gray1/Ceramic 3 4_Normal_Gray1.png using Guid(6c7cfd9e516f5754c95ceef4b21c6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b0fd122678d94dc63ea5864e049d94') in 0.019507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray1/Ceramic 5 6_Albedo_Gray1.png
+  artifactKey: Guid(55866f63d5a0897459db8d8077bed8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 5 6/Texture/Gray1/Ceramic 5 6_Albedo_Gray1.png using Guid(55866f63d5a0897459db8d8077bed8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e449940ebd161e785ba584c0d6fb0f1') in 0.022136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown5/Ceramic 7 8 9_Albedo_Brown5.png
+  artifactKey: Guid(a3db9b066cbdfee41a826723e42e8ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 7 8 9/Texture/Brown5/Ceramic 7 8 9_Albedo_Brown5.png using Guid(a3db9b066cbdfee41a826723e42e8ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3d9c404b6b8973f81d2c5a710149ff') in 0.019272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown1/Ceramic 3 broken_Albedo_Brown1.png
+  artifactKey: Guid(a627ff6b898ac5d47833dbadbc9ad066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 broken/Texture/Brown1/Ceramic 3 broken_Albedo_Brown1.png using Guid(a627ff6b898ac5d47833dbadbc9ad066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c622149ad89ed8f46705bb2f0e72fe') in 0.018598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.972866 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown1/Ceramic 3 4_Metallic_Brown1.png
+  artifactKey: Guid(d5fa42a197bb46a4f8eeae67797df25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown1/Ceramic 3 4_Metallic_Brown1.png using Guid(d5fa42a197bb46a4f8eeae67797df25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178b3ce7ebb93919e721df4b73d780c3') in 0.011539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.326719 seconds.
+  path: Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown1/Ceramic 3 4_Metallic_Brown1.png
+  artifactKey: Guid(d5fa42a197bb46a4f8eeae67797df25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Ceramic/Ceramic 3 4/Texture/Brown1/Ceramic 3 4_Metallic_Brown1.png using Guid(d5fa42a197bb46a4f8eeae67797df25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60aa20729b1a480ab62eaf60683e917') in 0.009409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.739092 seconds.
+  path: Assets/MODELS/Kota/Tent_C.jpg
+  artifactKey: Guid(1bd7a508bce82b54aa7312238ad7260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Kota/Tent_C.jpg using Guid(1bd7a508bce82b54aa7312238ad7260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c36df129603e3cbc496bd7a315f11c') in 0.018664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MODELS/Kota/Tent_fbx.fbx
+  artifactKey: Guid(476015fb3e1b80444ad1f14abbe65553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Kota/Tent_fbx.fbx using Guid(476015fb3e1b80444ad1f14abbe65553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a92e05b05492e1229ca9ff9a42a4e21') in 0.082566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.521049 seconds.
+  path: Assets/MODELS/Stones/Textures/stones_metalness_smoothness.tga
+  artifactKey: Guid(88c6bc67954fe5649a363e081afcb5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Stones/Textures/stones_metalness_smoothness.tga using Guid(88c6bc67954fe5649a363e081afcb5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45d5e3ea419fff996d7e28d073c841e') in 0.016358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MODELS/Stones/Textures/stones_normal.png
+  artifactKey: Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Stones/Textures/stones_normal.png using Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13523c3d4745b4f8c9e8f9f365d5e583') in 0.016343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.798394 seconds.
+  path: Assets/MODELS/Stones/Textures/stones_normal.png
+  artifactKey: Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Stones/Textures/stones_normal.png using Guid(392ad43b7ad61f040aa99db72f5315f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a74184da20f2690c7495ddd1d8157e3') in 0.018177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 237.794123 seconds.
+  path: Assets/MODELS/Mänty1/Pine_s_1_Material_Base_Color - Копія.png
+  artifactKey: Guid(e8e0fa2f900a54645b178baf8b950248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MODELS/Mänty1/Pine_s_1_Material_Base_Color - Копія.png using Guid(e8e0fa2f900a54645b178baf8b950248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db348bd697c168e1b893511b32ae190e') in 0.090035 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004828 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image Z:\Sekalaiset projektit\Paattisten luontopolku\Paattisten_luontopolku_WebXR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image Z:\Sekalaiset projektit\Paattisten luontopolku\Paattisten_luontopolku_WebXR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.801 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1802ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (1395ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4317 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (24.7 KB). Loaded Objects now: 6165.
+Memory consumption went from 379.9 MB to 379.8 MB.
+Total: 6.360200 ms (FindLiveObjects: 0.723100 ms CreateObjectMapping: 0.180200 ms MarkObjects: 5.308200 ms  DeleteObjects: 0.146700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (22.0 KB). Loaded Objects now: 6165.
+Memory consumption went from 290.9 MB to 290.9 MB.
+Total: 5.148100 ms (FindLiveObjects: 0.667500 ms CreateObjectMapping: 0.164000 ms MarkObjects: 4.281300 ms  DeleteObjects: 0.034200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005333 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image Z:\Sekalaiset projektit\Paattisten luontopolku\Paattisten_luontopolku_WebXR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image Z:\Sekalaiset projektit\Paattisten luontopolku\Paattisten_luontopolku_WebXR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.528 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1530ms)
+		BeginReloadAssembly (339ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (60ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (140ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4244 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (24.6 KB). Loaded Objects now: 6168.
+Memory consumption went from 377.5 MB to 377.5 MB.
+Total: 6.118100 ms (FindLiveObjects: 0.895000 ms CreateObjectMapping: 0.432600 ms MarkObjects: 4.744400 ms  DeleteObjects: 0.043700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005999 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image Z:\Sekalaiset projektit\Paattisten luontopolku\Paattisten_luontopolku_WebXR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image Z:\Sekalaiset projektit\Paattisten luontopolku\Paattisten_luontopolku_WebXR\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor\Src\SceneManager\EditorSceneManager.cpp line 680]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.372 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1373ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1098ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (575ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4244 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (24.6 KB). Loaded Objects now: 6171.
+Memory consumption went from 377.5 MB to 377.5 MB.
+Total: 5.650600 ms (FindLiveObjects: 0.791400 ms CreateObjectMapping: 0.304500 ms MarkObjects: 4.501100 ms  DeleteObjects: 0.051900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 6171.
+Memory consumption went from 291.1 MB to 291.1 MB.
+Total: 4.762600 ms (FindLiveObjects: 0.679000 ms CreateObjectMapping: 0.179100 ms MarkObjects: 3.869700 ms  DeleteObjects: 0.033500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
