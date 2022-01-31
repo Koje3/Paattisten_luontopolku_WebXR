@@ -82,7 +82,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AtmosphereDensity: 5
+    - _AtmosphereDensity: 3
     - _AtmosphereStrength: 4.88
     - _BumpScale: 5
     - _CityLightIntensity: 0.4
