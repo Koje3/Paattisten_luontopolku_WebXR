@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0029639218, g: 0.0026221776, b: 0.0031431117, a: 1}
+  m_IndirectSpecularColor: {r: 0.042379424, g: 0.037715264, b: 0.044836827, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -306,6 +306,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b071bac870c122b40808bc2c67c90420, type: 3}
+--- !u!1 &430084568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 430084569}
+  m_Layer: 0
+  m_Name: Mercury
+  m_TagString: Camera Position
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &430084569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430084568}
+  m_LocalRotation: {x: -0, y: 0.6909612, z: -0, w: 0.7228919}
+  m_LocalPosition: {x: 21.391, y: 0.139, z: -22.093}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1353948749}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 87.412, z: 0}
 --- !u!1001 &448911547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -361,6 +392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Earth (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1197500791825363061, guid: 574c00936d23a9747880ae39e9052cb2, type: 3}
+      propertyPath: m_TagString
+      value: StellarObject
+      objectReference: {fileID: 0}
     - target: {fileID: 1228348056834366629, guid: 574c00936d23a9747880ae39e9052cb2, type: 3}
       propertyPath: moveAround
       value: 
@@ -411,6 +446,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7910d56e3651369449e16c452df757d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arCamera: {fileID: 490611602}
+  startPosition: {fileID: 1779250505}
+  cameraPositions: {fileID: 1353948748}
 --- !u!81 &490611601
 AudioListener:
   m_ObjectHideFlags: 0
@@ -470,7 +508,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490611598}
   m_LocalRotation: {x: 0, y: 0.57049865, z: 0, w: 0.8212986}
-  m_LocalPosition: {x: 36.96, y: 1.45, z: -42.92}
+  m_LocalPosition: {x: 38.45, y: 0.48, z: -42.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -532,6 +570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Venus
       objectReference: {fileID: 0}
+    - target: {fileID: 3111215770410852708, guid: 63982ae144022744695e3e87281e4394, type: 3}
+      propertyPath: m_TagString
+      value: StellarObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63982ae144022744695e3e87281e4394, type: 3}
 --- !u!1001 &574586676
@@ -567,7 +609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6985918746375565555, guid: df5ec87d656249f4394cfbbcd8f3d5c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000011920929
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6985918746375565555, guid: df5ec87d656249f4394cfbbcd8f3d5c8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -633,7 +675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9087891368498891471, guid: 6b32d714c5ce1cd43a084f3b751f0e07, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000047683716
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9087891368498891471, guid: 6b32d714c5ce1cd43a084f3b751f0e07, type: 3}
       propertyPath: m_LocalPosition.z
@@ -679,6 +721,10 @@ PrefabInstance:
     - target: {fileID: 7210726413205332949, guid: 2ce486c5e853c5c48b039448a97cf9b3, type: 3}
       propertyPath: m_Name
       value: Mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210726413205332949, guid: 2ce486c5e853c5c48b039448a97cf9b3, type: 3}
+      propertyPath: m_TagString
+      value: StellarObject
       objectReference: {fileID: 0}
     - target: {fileID: 7214133849632726569, guid: 2ce486c5e853c5c48b039448a97cf9b3, type: 3}
       propertyPath: m_RootOrder
@@ -787,6 +833,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf9598e1996e4cb43b578949432f9151, type: 3}
+--- !u!1 &1353948748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1353948749}
+  m_Layer: 0
+  m_Name: CameraPositions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1353948749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353948748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1541723092}
+  - {fileID: 430084569}
+  - {fileID: 1779250506}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1541723091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1541723092}
+  m_Layer: 0
+  m_Name: Venus
+  m_TagString: Camera Position
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1541723092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541723091}
+  m_LocalRotation: {x: -0, y: 0.5933602, z: -0, w: 0.8049371}
+  m_LocalPosition: {x: 29.866, y: 0.53, z: -30.599}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1353948749}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 72.792, z: 0}
 --- !u!4 &1628687025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1194022710618115465, guid: 574c00936d23a9747880ae39e9052cb2, type: 3}
@@ -886,3 +997,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1779250505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779250506}
+  m_Layer: 0
+  m_Name: Earth
+  m_TagString: Camera Position
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1779250506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779250505}
+  m_LocalRotation: {x: -0, y: 0.57049865, z: -0, w: 0.8212986}
+  m_LocalPosition: {x: 38.45, y: 0.48000002, z: -42.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1353948749}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 69.57, z: 0}
