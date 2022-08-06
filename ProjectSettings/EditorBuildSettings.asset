@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Forest1.unity
-    guid: ff7fc4b7f57eefb49970484306998fbe
+    path: Assets/Scenes/Universe.unity
+    guid: 2ff56f97205e1a64dad7144df1d2b765
   m_configObjects:
     WebXR.Settings: {fileID: 11400000, guid: de7844097bfda414eb8dedfd79f1d9b2, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: af81c6fe1ed434b4cbef1417785d9d00, type: 2}

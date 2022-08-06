@@ -41,6 +41,7 @@ public class CamGyro : MonoBehaviour
         gyroEnabled = EnableGyro();
 
         currentCameraPosition = startPosition;
+        changeCameraPosition = false;
     }
 
     private bool EnableGyro()
@@ -140,11 +141,6 @@ public class CamGyro : MonoBehaviour
 
             }
         }
-    }
-
-    public void RotateCameraTouch()
-    {
-        
     }
 
 }
