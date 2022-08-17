@@ -6,16 +6,18 @@ using TMPro;
 
 public class ShowInformation : MonoBehaviour
 {
-    public GameObject canvases;
+    public GameObject planetCanvases;
+    public GameObject startingInformation;
     public Camera arCamera;
 
-    private GameObject currentRevealCanvas;
-    private GameObject currentHideCanvas;
+    private bool showStartInformation;
+    //private GameObject currentRevealCanvas;
+    //private GameObject currentHideCanvas;
 
-    private Image currentImage;
+    //private Image currentImage;
     private float lerpDuration = 0.8f;
 
-    private TextMeshProUGUI[] textMeshesRevealCanvas;
+    //private TextMeshProUGUI[] textMeshesRevealCanvas;
     private TextMeshProUGUI[] textMeshesHideCanvas;
 
     private GameObject currentHitObject;
@@ -24,19 +26,51 @@ public class ShowInformation : MonoBehaviour
     private bool canvasRevealed;
     private bool couroutineOn;
 
+    private float _alphaColor;
+
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < canvases.transform.childCount; i++)
+        for (int i = 0; i < planetCanvases.transform.childCount; i++)
         {
-            canvases.transform.GetChild(i).gameObject.SetActive(false);
+            planetCanvases.transform.GetChild(i).gameObject.SetActive(false);
         }
+
+
+        startingInformation.SetActive(true);
+        showStartInformation = true;
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (showStartInformation == true)
+        {
+            if (Input.touchCount > 0)
+            {
+                Touch touch1 = Input.GetTouch(0);
+
+                if (Input.touchCount < 2)
+                {
+                    if (touch1.phase == TouchPhase.Began)
+                    {
+                        showStartInformation = false;
+                        StartCoroutine(HideStartInformation());
+
+                    }
+                }
+            }
+        }
+
+        if (Input.GetKeyDown("z") && showStartInformation == true)
+        {
+            showStartInformation = false;
+            StartCoroutine(HideStartInformation());
+        }
+
+
 
         //int layerMask = 1 << 5;
         //layerMask = ~layerMask;
@@ -69,13 +103,14 @@ public class ShowInformation : MonoBehaviour
 
     public IEnumerator RevealCanvas(string canvasName)
     {
-        currentRevealCanvas = canvases.transform.Find(canvasName).gameObject;
+        GameObject currentRevealCanvas = planetCanvases.transform.Find(canvasName).gameObject;
 
         if (currentRevealCanvas != null)
         {
             yield return new WaitForSeconds(0.5f);
 
-            textMeshesRevealCanvas = currentRevealCanvas.GetComponentsInChildren<TextMeshProUGUI>();
+            TextMeshProUGUI[] textMeshesRevealCanvas = currentRevealCanvas.GetComponentsInChildren<TextMeshProUGUI>();
+
             foreach (TextMeshProUGUI textMeshComponent in textMeshesRevealCanvas)
             {
                 Color oldColor = textMeshComponent.color;
@@ -121,11 +156,7 @@ public class ShowInformation : MonoBehaviour
 
     public IEnumerator HideCanvas(string newCurrentHideCanvas)
     {
-
-        if (newCurrentHideCanvas != null)
-        {
-            currentHideCanvas = canvases.transform.Find(newCurrentHideCanvas).gameObject;
-        }
+        GameObject currentHideCanvas = planetCanvases.transform.Find(newCurrentHideCanvas).gameObject;
 
         if (currentHideCanvas != null)
         {
@@ -141,7 +172,7 @@ public class ShowInformation : MonoBehaviour
                 yield return null;
             }
 
-            textMeshesHideCanvas = currentHideCanvas.GetComponentsInChildren<TextMeshProUGUI>();
+            TextMeshProUGUI[] textMeshesHideCanvas = currentHideCanvas.GetComponentsInChildren<TextMeshProUGUI>();
 
             timeElapsed = 0f;
 
@@ -164,6 +195,52 @@ public class ShowInformation : MonoBehaviour
             canvasRevealed = false;
             couroutineOn = false;
         }
+
+
+    }
+
+    public IEnumerator HideStartInformation()
+    {
+
+        float timeElapsed = 0f;
+
+        TextMeshProUGUI[] startInformation = startingInformation.GetComponentsInChildren<TextMeshProUGUI>();
+        Image[] startImages = startingInformation.GetComponentsInChildren<Image>();
+
+        if (startInformation != null)
+        {
+            while (timeElapsed < lerpDuration)
+            {
+                timeElapsed += Time.deltaTime;
+
+                foreach (TextMeshProUGUI textMeshComponent in startInformation)
+                {
+                    Color oldColor = textMeshComponent.color;
+
+                    textMeshComponent.color = new Color(oldColor.r, oldColor.g, oldColor.b, 1 - timeElapsed / lerpDuration);
+                }
+
+                foreach (Image image in startImages)
+                {
+                    if (image.transform.name == "Panel")
+                    {
+                        _alphaColor = 0.76f;
+                    }
+                    else
+                    {
+                        _alphaColor = 1f;
+                    }
+
+                    Color oldColor = image.color;
+
+                    image.color = new Color(oldColor.r, oldColor.g, oldColor.b, _alphaColor - timeElapsed / lerpDuration);
+                }
+
+                yield return null;
+            }
+        }
+
+        startingInformation.SetActive(false);
 
 
     }

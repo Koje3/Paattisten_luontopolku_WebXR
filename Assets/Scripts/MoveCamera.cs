@@ -9,7 +9,7 @@ public class MoveCamera : MonoBehaviour
     public GameObject wakeUpPosition;
     public GameObject cameraPositions;
 
-
+    private int cameraPositionIndex;
 
     private GameObject cameraContainer;
     private Quaternion rot;
@@ -21,11 +21,11 @@ public class MoveCamera : MonoBehaviour
     [HideInInspector]
     public GameObject currentCameraPosition;
     private GameObject previousCameraPosition;
-    private Vector3 cameraDestination;
 
     private ShowInformation showInformationComponent;
 
     private GameObject hitObject;
+
 
     void Start()
     {
@@ -37,6 +37,8 @@ public class MoveCamera : MonoBehaviour
 
         currentCameraPosition = startPosition;
         changeCameraPosition = false;
+
+        cameraPositionIndex = currentCameraPosition.transform.GetSiblingIndex();
 
         showInformationComponent = GetComponent<ShowInformation>();
 
@@ -61,29 +63,13 @@ public class MoveCamera : MonoBehaviour
                     RaycastChangePosition(touch1);
 
                 }
-
             }
-
         }
-
-
-        if (Input.GetKeyDown("z"))
-        {
-            StartCoroutine(showInformationComponent.RevealCanvas(currentCameraPosition.name));
-        }
-
-        if (Input.GetKeyDown("x"))
-        {
-            previousCameraPosition = currentCameraPosition;
-            currentCameraPosition = cameraPositions.transform.GetChild(Random.Range(1, 6)).gameObject;
-            StartCoroutine(ChangePositionSmooth(currentCameraPosition.transform.position));
-        }
-
-
     }
 
     public IEnumerator ChangePositionSmooth(Vector3 cameraDestination)
     {
+
         float timeElapsed = 0f;
         changeCameraPosition = true;
         Vector3 startPosition = cameraContainer.transform.position;
@@ -126,7 +112,7 @@ public class MoveCamera : MonoBehaviour
                 previousCameraPosition = currentCameraPosition;
                 currentCameraPosition = cameraPositions.transform.Find(hitObject.name).gameObject;
 
-                cameraDestination = currentCameraPosition.transform.position;
+                Vector3 cameraDestination = currentCameraPosition.transform.position;
                 StartCoroutine(ChangePositionSmooth(cameraDestination));
 
  
@@ -136,6 +122,28 @@ public class MoveCamera : MonoBehaviour
 
             }
         }
+    }
+
+    public void ChangeCameraPositionButtons(int index)
+    {
+        cameraPositionIndex += index;
+
+        if (cameraPositionIndex < 1)
+        {
+            cameraPositionIndex = 1;
+            return;
+        }
+        else if (cameraPositionIndex > 8)
+        {
+            cameraPositionIndex = 8;
+            return;
+        }
+
+        previousCameraPosition = currentCameraPosition;
+        currentCameraPosition = cameraPositions.transform.GetChild(cameraPositionIndex).gameObject;
+
+        Vector3 cameraDestination = currentCameraPosition.transform.position;
+        StartCoroutine(ChangePositionSmooth(cameraDestination));
     }
 
 }
