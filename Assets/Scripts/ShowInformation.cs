@@ -39,80 +39,87 @@ public class ShowInformation : MonoBehaviour
             StartCoroutine(RevealCanvas("Earth"));
         }
 
-        int layerMask = 1 << 5;
-        layerMask = ~layerMask;
 
-        Ray ray = Camera.main.ScreenPointToRay(Camera.main.transform.forward);
-        RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
-        {
-            currentHitObject = hit.transform.gameObject;
+        //int layerMask = 1 << 5;
+        //layerMask = ~layerMask;
 
-            Debug.Log(currentHitObject);
+        //Ray ray = Camera.main.ScreenPointToRay(Camera.main.transform.forward);
+        //RaycastHit hit;
 
-            if (currentHitObject.tag == "StellarObject" && previousHitObject != currentHitObject && currentHitObject.name == GetComponent<MoveCamera>().currentCameraPosition.name && currentHitObject != null && couroutineOn == false)
-            {
-                couroutineOn = true;
-                previousHitObject = currentHitObject;
-                StartCoroutine(RevealCanvas(currentHitObject.name));
-            }
+        //if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
+        //{
+        //    currentHitObject = hit.transform.gameObject;
 
-            if (currentHitObject == null && canvasRevealed == true && couroutineOn == false)
-            {
-                couroutineOn = true;
-                StartCoroutine(HideCanvas(currentHitObject.name));
-            }
+        //    Debug.Log(currentHitObject);
 
-        }  
+        //    if (currentHitObject.tag == "StellarObject" && previousHitObject != currentHitObject && currentHitObject.name == GetComponent<MoveCamera>().currentCameraPosition.name && currentHitObject != null && couroutineOn == false)
+        //    {
+        //        couroutineOn = true;
+        //        previousHitObject = currentHitObject;
+        //        StartCoroutine(RevealCanvas(currentHitObject.name));
+        //    }
+
+        //    if (currentHitObject == null && canvasRevealed == true && couroutineOn == false)
+        //    {
+        //        couroutineOn = true;
+        //        StartCoroutine(HideCanvas(currentHitObject.name));
+        //    }
+
+        //}  
+
     }
 
     public IEnumerator RevealCanvas(string canvasName)
     {
         currentCanvas = canvases.transform.Find(canvasName).gameObject;
 
-        textMeshes = currentCanvas.GetComponentsInChildren<TextMeshProUGUI>();
-        foreach (TextMeshProUGUI textMeshComponent in textMeshes)
+        if (currentCanvas != null)
         {
-            Color oldColor = textMeshComponent.color;
+            yield return new WaitForSeconds(2);
 
-            textMeshComponent.color = new Color(oldColor.r, oldColor.g, oldColor.b, 0);
-        }
-
-
-        currentCanvas.SetActive(true);
-
-        Image currentImage = currentCanvas.transform.GetComponentInChildren<Image>();
-
-        float timeElapsed = 0f;
-
-        while (timeElapsed < lerpDuration)
-        {
-            timeElapsed += Time.deltaTime;
-            currentImage.fillAmount = timeElapsed / lerpDuration;
-            yield return null;
-        }
-
-
-        timeElapsed = 0f;
-
-        while (timeElapsed < lerpDuration)
-        {
-            timeElapsed += Time.deltaTime;
-
+            textMeshes = currentCanvas.GetComponentsInChildren<TextMeshProUGUI>();
             foreach (TextMeshProUGUI textMeshComponent in textMeshes)
             {
                 Color oldColor = textMeshComponent.color;
-               
-                textMeshComponent.color = new Color(oldColor.r, oldColor.g, oldColor.b, timeElapsed / lerpDuration);
+
+                textMeshComponent.color = new Color(oldColor.r, oldColor.g, oldColor.b, 0);
             }
 
-            yield return null;
+
+            currentCanvas.SetActive(true);
+
+            Image currentImage = currentCanvas.transform.GetComponentInChildren<Image>();
+
+            float timeElapsed = 0f;
+
+            while (timeElapsed < lerpDuration)
+            {
+                timeElapsed += Time.deltaTime;
+                currentImage.fillAmount = timeElapsed / lerpDuration;
+                yield return null;
+            }
+
+
+            timeElapsed = 0f;
+
+            while (timeElapsed < lerpDuration)
+            {
+                timeElapsed += Time.deltaTime;
+
+                foreach (TextMeshProUGUI textMeshComponent in textMeshes)
+                {
+                    Color oldColor = textMeshComponent.color;
+
+                    textMeshComponent.color = new Color(oldColor.r, oldColor.g, oldColor.b, timeElapsed / lerpDuration);
+                }
+
+                yield return null;
+            }
+
+            canvasRevealed = true;
+            couroutineOn = false;
         }
-
-        canvasRevealed = true;
-        couroutineOn = false;
-
     }
 
     public IEnumerator HideCanvas(string newCurrentCanvas = null)
@@ -122,37 +129,43 @@ public class ShowInformation : MonoBehaviour
             currentCanvas = canvases.transform.Find(newCurrentCanvas).gameObject;
         }
 
-        Image currentImage = currentCanvas.transform.GetComponentInChildren<Image>();
-
-        float timeElapsed = 0f;
-
-        while (timeElapsed < lerpDuration)
+        if (currentCanvas != null)
         {
-            timeElapsed += Time.deltaTime;
-            currentImage.fillAmount = 1 - timeElapsed / lerpDuration;
-            yield return null;
-        }
 
-        textMeshes = currentCanvas.GetComponentsInChildren<TextMeshProUGUI>();
+            Image currentImage = currentCanvas.transform.GetComponentInChildren<Image>();
 
-        timeElapsed = 0f;
+            float timeElapsed = 0f;
 
-        while (timeElapsed < lerpDuration)
-        {
-            timeElapsed += Time.deltaTime;
-
-            foreach (TextMeshProUGUI textMeshComponent in textMeshes)
+            while (timeElapsed < lerpDuration)
             {
-                Color oldColor = textMeshComponent.color;
-
-                textMeshComponent.color = new Color(oldColor.r, oldColor.g, oldColor.b, 1 - timeElapsed / lerpDuration);
+                timeElapsed += Time.deltaTime;
+                currentImage.fillAmount = 1 - timeElapsed / lerpDuration;
+                yield return null;
             }
 
-            yield return null;
+            textMeshes = currentCanvas.GetComponentsInChildren<TextMeshProUGUI>();
+
+            timeElapsed = 0f;
+
+            while (timeElapsed < lerpDuration)
+            {
+                timeElapsed += Time.deltaTime;
+
+                foreach (TextMeshProUGUI textMeshComponent in textMeshes)
+                {
+                    Color oldColor = textMeshComponent.color;
+
+                    textMeshComponent.color = new Color(oldColor.r, oldColor.g, oldColor.b, 1 - timeElapsed / lerpDuration);
+                }
+
+                yield return null;
+            }
+
+            canvasRevealed = false;
+            couroutineOn = false;
         }
 
-        canvasRevealed = false;
-        couroutineOn = false;
+
     }
 
 }

@@ -6,13 +6,15 @@ public class MoveCamera : MonoBehaviour
 {
     public Camera arCamera;
     public GameObject startPosition;
+    public GameObject wakeUpPosition;
     public GameObject cameraPositions;
+
 
 
     private GameObject cameraContainer;
     private Quaternion rot;
 
-    private float lerpDuration = 0.5f;
+    private float lerpDuration = 1f;
     private float lerpRotationDuration = 0.5f;
     private bool changeCameraPosition;
 
@@ -29,8 +31,12 @@ public class MoveCamera : MonoBehaviour
         cameraContainer.transform.position = transform.position;
         transform.SetParent(cameraContainer.transform);
 
+        cameraContainer.transform.position = wakeUpPosition.transform.position;
+
         currentCameraPosition = startPosition;
         changeCameraPosition = false;
+
+        StartCoroutine(ChangePositionSmooth(currentCameraPosition.transform.position));
     }
 
 
@@ -93,6 +99,10 @@ public class MoveCamera : MonoBehaviour
 
                 cameraDestination = currentCameraPosition.transform.position;
                 StartCoroutine(ChangePositionSmooth(cameraDestination));
+
+                StartCoroutine(GetComponent<ShowInformation>().RevealCanvas(currentCameraPosition.name));
+                StartCoroutine(GetComponent<ShowInformation>().HideCanvas(previousCameraPosition.name));
+
 
                 //previousCameraPosition.SetActive(true);
                 //currentCameraPosition.SetActive(false);
