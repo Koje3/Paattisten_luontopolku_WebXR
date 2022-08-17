@@ -23,6 +23,8 @@ public class MoveCamera : MonoBehaviour
     private GameObject previousCameraPosition;
     private Vector3 cameraDestination;
 
+    private ShowInformation showInformationComponent;
+
     private GameObject hitObject;
 
     void Start()
@@ -36,7 +38,11 @@ public class MoveCamera : MonoBehaviour
         currentCameraPosition = startPosition;
         changeCameraPosition = false;
 
+        showInformationComponent = GetComponent<ShowInformation>();
+
         StartCoroutine(ChangePositionSmooth(currentCameraPosition.transform.position));
+
+        //StartCoroutine(showInformationComponent.RevealCanvas(currentCameraPosition.name));
     }
 
 
@@ -60,6 +66,20 @@ public class MoveCamera : MonoBehaviour
 
         }
 
+
+        if (Input.GetKeyDown("z"))
+        {
+            StartCoroutine(showInformationComponent.RevealCanvas(currentCameraPosition.name));
+        }
+
+        if (Input.GetKeyDown("x"))
+        {
+            previousCameraPosition = currentCameraPosition;
+            currentCameraPosition = cameraPositions.transform.GetChild(Random.Range(1, 6)).gameObject;
+            StartCoroutine(ChangePositionSmooth(currentCameraPosition.transform.position));
+        }
+
+
     }
 
     public IEnumerator ChangePositionSmooth(Vector3 cameraDestination)
@@ -67,6 +87,13 @@ public class MoveCamera : MonoBehaviour
         float timeElapsed = 0f;
         changeCameraPosition = true;
         Vector3 startPosition = cameraContainer.transform.position;
+
+
+        if (previousCameraPosition != null)
+        {
+            StartCoroutine(showInformationComponent.HideCanvas(previousCameraPosition.name));
+        }
+
 
         while (timeElapsed < lerpDuration)
         {
@@ -78,6 +105,8 @@ public class MoveCamera : MonoBehaviour
 
         changeCameraPosition = false;
         cameraContainer.transform.position = cameraDestination;
+
+        StartCoroutine(showInformationComponent.RevealCanvas(currentCameraPosition.name));
 
     }
 
@@ -92,7 +121,7 @@ public class MoveCamera : MonoBehaviour
 
             Debug.Log(hitObject);
 
-            if (hitObject.tag == "StellarObject")
+            if (hitObject.tag == "StellarObject" && hitObject.name != currentCameraPosition.name)
             {
                 previousCameraPosition = currentCameraPosition;
                 currentCameraPosition = cameraPositions.transform.Find(hitObject.name).gameObject;
@@ -100,9 +129,7 @@ public class MoveCamera : MonoBehaviour
                 cameraDestination = currentCameraPosition.transform.position;
                 StartCoroutine(ChangePositionSmooth(cameraDestination));
 
-                StartCoroutine(GetComponent<ShowInformation>().RevealCanvas(currentCameraPosition.name));
-                StartCoroutine(GetComponent<ShowInformation>().HideCanvas(previousCameraPosition.name));
-
+ 
 
                 //previousCameraPosition.SetActive(true);
                 //currentCameraPosition.SetActive(false);

@@ -9,11 +9,14 @@ public class ShowInformation : MonoBehaviour
     public GameObject canvases;
     public Camera arCamera;
 
-    private GameObject currentCanvas;
+    private GameObject currentRevealCanvas;
+    private GameObject currentHideCanvas;
+
     private Image currentImage;
     private float lerpDuration = 0.8f;
 
-    private TextMeshProUGUI[] textMeshes;
+    private TextMeshProUGUI[] textMeshesRevealCanvas;
+    private TextMeshProUGUI[] textMeshesHideCanvas;
 
     private GameObject currentHitObject;
     private GameObject previousHitObject;
@@ -34,12 +37,6 @@ public class ShowInformation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            StartCoroutine(RevealCanvas("Earth"));
-        }
-
-
 
         //int layerMask = 1 << 5;
         //layerMask = ~layerMask;
@@ -72,14 +69,14 @@ public class ShowInformation : MonoBehaviour
 
     public IEnumerator RevealCanvas(string canvasName)
     {
-        currentCanvas = canvases.transform.Find(canvasName).gameObject;
+        currentRevealCanvas = canvases.transform.Find(canvasName).gameObject;
 
-        if (currentCanvas != null)
+        if (currentRevealCanvas != null)
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(0.5f);
 
-            textMeshes = currentCanvas.GetComponentsInChildren<TextMeshProUGUI>();
-            foreach (TextMeshProUGUI textMeshComponent in textMeshes)
+            textMeshesRevealCanvas = currentRevealCanvas.GetComponentsInChildren<TextMeshProUGUI>();
+            foreach (TextMeshProUGUI textMeshComponent in textMeshesRevealCanvas)
             {
                 Color oldColor = textMeshComponent.color;
 
@@ -87,9 +84,9 @@ public class ShowInformation : MonoBehaviour
             }
 
 
-            currentCanvas.SetActive(true);
+            currentRevealCanvas.SetActive(true);
 
-            Image currentImage = currentCanvas.transform.GetComponentInChildren<Image>();
+            Image currentImage = currentRevealCanvas.transform.GetComponentInChildren<Image>();
 
             float timeElapsed = 0f;
 
@@ -107,7 +104,7 @@ public class ShowInformation : MonoBehaviour
             {
                 timeElapsed += Time.deltaTime;
 
-                foreach (TextMeshProUGUI textMeshComponent in textMeshes)
+                foreach (TextMeshProUGUI textMeshComponent in textMeshesRevealCanvas)
                 {
                     Color oldColor = textMeshComponent.color;
 
@@ -122,17 +119,18 @@ public class ShowInformation : MonoBehaviour
         }
     }
 
-    public IEnumerator HideCanvas(string newCurrentCanvas = null)
+    public IEnumerator HideCanvas(string newCurrentHideCanvas)
     {
-        if (newCurrentCanvas != null)
+
+        if (newCurrentHideCanvas != null)
         {
-            currentCanvas = canvases.transform.Find(newCurrentCanvas).gameObject;
+            currentHideCanvas = canvases.transform.Find(newCurrentHideCanvas).gameObject;
         }
 
-        if (currentCanvas != null)
+        if (currentHideCanvas != null)
         {
 
-            Image currentImage = currentCanvas.transform.GetComponentInChildren<Image>();
+            Image currentImage = currentHideCanvas.transform.GetComponentInChildren<Image>();
 
             float timeElapsed = 0f;
 
@@ -143,7 +141,7 @@ public class ShowInformation : MonoBehaviour
                 yield return null;
             }
 
-            textMeshes = currentCanvas.GetComponentsInChildren<TextMeshProUGUI>();
+            textMeshesHideCanvas = currentHideCanvas.GetComponentsInChildren<TextMeshProUGUI>();
 
             timeElapsed = 0f;
 
@@ -151,7 +149,7 @@ public class ShowInformation : MonoBehaviour
             {
                 timeElapsed += Time.deltaTime;
 
-                foreach (TextMeshProUGUI textMeshComponent in textMeshes)
+                foreach (TextMeshProUGUI textMeshComponent in textMeshesHideCanvas)
                 {
                     Color oldColor = textMeshComponent.color;
 
@@ -160,6 +158,8 @@ public class ShowInformation : MonoBehaviour
 
                 yield return null;
             }
+
+            currentHideCanvas.SetActive(false);
 
             canvasRevealed = false;
             couroutineOn = false;
