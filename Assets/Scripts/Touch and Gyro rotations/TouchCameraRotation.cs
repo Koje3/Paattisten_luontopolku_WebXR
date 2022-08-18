@@ -5,7 +5,7 @@ using UnityEngine;
 public class TouchCameraRotation : BasicCameraRotation
 {
     Vector3 firstPoint;
-    float sensitivity = 2.5f;
+    public float sensitivity = 2.5f;
 
     void Update()
     {

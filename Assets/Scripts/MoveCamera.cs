@@ -115,7 +115,7 @@ public class MoveCamera : MonoBehaviour
                 Vector3 cameraDestination = currentCameraPosition.transform.position;
                 StartCoroutine(ChangePositionSmooth(cameraDestination));
 
- 
+                cameraPositionIndex = currentCameraPosition.transform.GetSiblingIndex();
 
                 //previousCameraPosition.SetActive(true);
                 //currentCameraPosition.SetActive(false);
@@ -133,9 +133,9 @@ public class MoveCamera : MonoBehaviour
             cameraPositionIndex = 1;
             return;
         }
-        else if (cameraPositionIndex > 8)
+        else if (cameraPositionIndex > 9)
         {
-            cameraPositionIndex = 8;
+            cameraPositionIndex = 9;
             return;
         }
 
