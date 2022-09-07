@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+
 
 public class MoveCamera : MonoBehaviour
 {
@@ -8,6 +10,8 @@ public class MoveCamera : MonoBehaviour
     public GameObject startPosition;
     public GameObject wakeUpPosition;
     public GameObject cameraPositions;
+    public TextMeshProUGUI planetText;
+    public GameObject planetCanvases;
 
     private int cameraPositionIndex;
 
@@ -26,9 +30,13 @@ public class MoveCamera : MonoBehaviour
 
     private GameObject hitObject;
 
+    private bool smoothPositionChangeCompleted;
+
 
     void Start()
     {
+        smoothPositionChangeCompleted = false;
+
         cameraContainer = new GameObject("Camera Container");
         cameraContainer.transform.position = transform.position;
         transform.SetParent(cameraContainer.transform);
@@ -65,10 +73,17 @@ public class MoveCamera : MonoBehaviour
                 }
             }
         }
+
+        if (currentCameraPosition != null && smoothPositionChangeCompleted)
+        {
+            cameraContainer.transform.position = currentCameraPosition.transform.position;
+        }
+
     }
 
     public IEnumerator ChangePositionSmooth(Vector3 cameraDestination)
     {
+        SetPlanetNameText(currentCameraPosition.name);
 
         float timeElapsed = 0f;
         changeCameraPosition = true;
@@ -92,6 +107,8 @@ public class MoveCamera : MonoBehaviour
         changeCameraPosition = false;
         cameraContainer.transform.position = cameraDestination;
 
+        smoothPositionChangeCompleted = true;
+
         StartCoroutine(showInformationComponent.RevealCanvas(currentCameraPosition.name));
 
     }
@@ -109,6 +126,8 @@ public class MoveCamera : MonoBehaviour
 
             if (hitObject.tag == "StellarObject" && hitObject.name != currentCameraPosition.name)
             {
+                smoothPositionChangeCompleted = false;
+
                 previousCameraPosition = currentCameraPosition;
                 currentCameraPosition = cameraPositions.transform.Find(hitObject.name).gameObject;
 
@@ -139,11 +158,66 @@ public class MoveCamera : MonoBehaviour
             return;
         }
 
+        smoothPositionChangeCompleted = false;
+
         previousCameraPosition = currentCameraPosition;
         currentCameraPosition = cameraPositions.transform.GetChild(cameraPositionIndex).gameObject;
 
         Vector3 cameraDestination = currentCameraPosition.transform.position;
         StartCoroutine(ChangePositionSmooth(cameraDestination));
+    }
+
+    public void RotateCameraAndCanvasAround(bool buttonStatus)
+    {
+        currentCameraPosition.GetComponent<FollowPlanet>().RotationButtonPressed(buttonStatus);
+
+        planetCanvases.transform.Find(currentCameraPosition.name).GetComponent<FollowPlanet>().RotationButtonPressed(buttonStatus);
+    }
+
+
+    void SetPlanetNameText(string planetName)
+    {
+        switch (planetName)
+        {
+            case "Sun":
+                planetText.text = "AURINKO";
+                break;
+
+            case "Mercury":
+                planetText.text = "MERKURIUS";
+                break;
+
+            case "Venus":
+                planetText.text = "VENUS";
+                break;
+
+            case "Earth":
+                planetText.text = "MAA";
+                break;
+
+            case "Mars":
+                planetText.text = "MARS";
+                break;
+
+            case "Jupiter":
+                planetText.text = "JUPITER";
+                break;
+
+            case "Saturn":
+                planetText.text = "SATURNUS";
+                break;
+
+            case "Neptune":
+                planetText.text = "NEPTUNUS";
+                break;
+
+            case "Uranus":
+                planetText.text = "URANUS";
+                break;
+
+            default:
+                break;
+        }
     }
 
 }

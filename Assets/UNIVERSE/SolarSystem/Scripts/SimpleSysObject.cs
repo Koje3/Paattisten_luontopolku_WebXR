@@ -24,21 +24,44 @@ namespace NeutronCat.SolarSystem
         private static Material _lineMaterial;
         private static Color _deltaColor;
 
+        private float randomPosition;
+
         void Awake()
         {
+
+
             if (moveAround == null) moveAround = GameObject.Find("Sun").transform;
             _myTransform = transform;
+
             _initialVector = _myTransform.position - moveAround.position;
-            _moveAroundQuaternion = Quaternion.Euler(0, 0, 0);
+
+            //oma lisäys
+            if (gameObject.name != "Earth")
+            {
+                _moveAroundQuaternion = Quaternion.Euler(0, Random.Range(10f, 320f), 0);
+            }
+            else
+            {
+                _moveAroundQuaternion = Quaternion.Euler(0, 0, 0);
+            }
+
             _myTransform.rotation *= Quaternion.Euler(0, 0, axialTilt);
             _deltaColor = Color.green * .5f / orbitSample;
             CreateLineMaterial();
         }
 
+        //Oma lisäys
+        private void Start()
+        {
+            _myTransform.position = _moveAroundQuaternion * _initialVector + moveAround.position;
+
+        }
+
+
         void Update()
         {
             _moveAroundQuaternion *= Quaternion.Euler(0, -Time.deltaTime * SimpleViewer.timeScale / period, 0);
-            _myTransform.position = _moveAroundQuaternion * _initialVector + moveAround.position;
+            _myTransform.position = _moveAroundQuaternion  * _initialVector + moveAround.position;
             _myTransform.rotation *= Quaternion.Euler(0, -Time.deltaTime * SimpleViewer.timeScale / rotationPeriod, 0);
         }
 
