@@ -41,12 +41,12 @@ public class GyroscopeCameraRotation : BasicCameraRotation
         y = Input.gyro.rotationRate.y;
 
         // trying to fix gyroscopes phone orientation problem 
-        if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
-        {
-            float xTemp = x;
-            x = y;
-            y = xTemp;
-        }
+        //if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft)
+        //{
+        //    float xTemp = x;
+        //    x = y;
+        //    y = xTemp;
+        //}
 
         float xFiltered = FilterGyroValues(x);
         RotateUpDown(xFiltered * sensitivity);

@@ -7,10 +7,12 @@ using TMPro;
 public class ShowInformation : MonoBehaviour
 {
     public GameObject planetCanvases;
-    public GameObject startingInformation;
+    public GameObject[] startingInformation;
+
     public Camera arCamera;
 
     private bool showStartInformation;
+    public int startInfoIndex;
     //private GameObject currentRevealCanvas;
     //private GameObject currentHideCanvas;
 
@@ -36,8 +38,12 @@ public class ShowInformation : MonoBehaviour
             planetCanvases.transform.GetChild(i).gameObject.SetActive(false);
         }
 
+        startInfoIndex = 0;
 
-        startingInformation.SetActive(true);
+        startingInformation[startInfoIndex].SetActive(false);
+
+        StartCoroutine(ShowStartInformation());
+
         showStartInformation = true;
 
     }
@@ -199,13 +205,84 @@ public class ShowInformation : MonoBehaviour
 
     }
 
+    public IEnumerator ShowStartInformation()
+    {
+        showStartInformation = false;
+
+        float timeElapsed = 0f;
+
+        TextMeshProUGUI[] startInformation = startingInformation[startInfoIndex].GetComponentsInChildren<TextMeshProUGUI>();
+        Image[] startImages = startingInformation[startInfoIndex].GetComponentsInChildren<Image>();
+
+
+        if (startInformation != null)
+        {
+            foreach (TextMeshProUGUI textMeshComponent in startInformation)
+            {
+                Color oldColor = textMeshComponent.color;
+
+                textMeshComponent.color = new Color(oldColor.r, oldColor.g, oldColor.b, 0);
+            }
+
+            foreach (Image image in startImages)
+            {
+                _alphaColor = 0;
+
+                Color oldColor = image.color;
+
+                image.color = new Color(oldColor.r, oldColor.g, oldColor.b, _alphaColor);
+            }
+
+            startingInformation[startInfoIndex].SetActive(true);
+
+
+            while (timeElapsed < lerpDuration)
+            {
+                timeElapsed += Time.deltaTime;
+
+                foreach (TextMeshProUGUI textMeshComponent in startInformation)
+                {
+                    Color oldColor = textMeshComponent.color;
+
+                    textMeshComponent.color = new Color(oldColor.r, oldColor.g, oldColor.b, timeElapsed / lerpDuration);
+                }
+
+                foreach (Image image in startImages)
+                {
+                    if (image.transform.name == "Panel")
+                    {
+                        _alphaColor = 0.76f;
+                    }
+                    else
+                    {
+                        _alphaColor = 1f;
+                    }
+
+                    Color oldColor = image.color;
+
+                    if (timeElapsed / lerpDuration < _alphaColor)
+                    {
+                        image.color = new Color(oldColor.r, oldColor.g, oldColor.b, timeElapsed / lerpDuration);
+                    }
+
+                }
+
+                yield return null;
+            }
+        }
+
+        showStartInformation = true;
+
+
+    }
+
     public IEnumerator HideStartInformation()
     {
 
         float timeElapsed = 0f;
 
-        TextMeshProUGUI[] startInformation = startingInformation.GetComponentsInChildren<TextMeshProUGUI>();
-        Image[] startImages = startingInformation.GetComponentsInChildren<Image>();
+        TextMeshProUGUI[] startInformation = startingInformation[startInfoIndex].GetComponentsInChildren<TextMeshProUGUI>();
+        Image[] startImages = startingInformation[startInfoIndex].GetComponentsInChildren<Image>();
 
         if (startInformation != null)
         {
@@ -240,9 +317,14 @@ public class ShowInformation : MonoBehaviour
             }
         }
 
-        startingInformation.SetActive(false);
+        startingInformation[startInfoIndex].SetActive(false);
 
+        startInfoIndex += 1;
 
+        if (startInfoIndex < startingInformation.Length)
+        {
+            StartCoroutine(ShowStartInformation());
+        }
     }
 
 }

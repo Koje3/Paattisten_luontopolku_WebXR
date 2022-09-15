@@ -12,7 +12,7 @@ public class FollowPlanet : MonoBehaviour
     public const float scaleFactor = 0.0001f;
 
     private Quaternion _moveAroundQuaternion;
-    private float moveSpeed = 0.1f;
+    private float rotationMoveSpeed = 1f;
 
     private bool isObjectCanvas;
     private Transform sceneCamera;
@@ -49,7 +49,7 @@ public class FollowPlanet : MonoBehaviour
 
         if (rotationButtonIsPressed)
         {
-            _moveAroundQuaternion *= Quaternion.Euler(0, moveSpeed, 0);
+            _moveAroundQuaternion *= Quaternion.Euler(0, rotationMoveSpeed, 0);
         }
 
 

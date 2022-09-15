@@ -12,7 +12,8 @@ public class CheckDeviceOrientation : MonoBehaviour
         {
             GetComponent<Camera>().fieldOfView = 40f;
         }
-        else
+        
+        if (Input.deviceOrientation == DeviceOrientation.Portrait)
         {
             GetComponent<Camera>().fieldOfView = 60f;
         }
