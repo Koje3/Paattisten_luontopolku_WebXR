@@ -11,7 +11,7 @@ public class FadeInAudioSource : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
 
-        StartCoroutine(StartFade(audioSource, 30f, 0.60f));
+        StartCoroutine(StartFade(audioSource, 30f, 0.50f));
     }
 
     public static IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)

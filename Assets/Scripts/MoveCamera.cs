@@ -13,6 +13,9 @@ public class MoveCamera : MonoBehaviour
     public TextMeshProUGUI planetText;
     public GameObject planetCanvases;
 
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
     private int cameraPositionIndex;
 
     private GameObject cameraContainer;
@@ -126,6 +129,8 @@ public class MoveCamera : MonoBehaviour
 
             if (hitObject.tag == "StellarObject" && hitObject.name != currentCameraPosition.name)
             {
+                audioSource.PlayOneShot(audioClip);
+
                 smoothPositionChangeCompleted = false;
 
                 previousCameraPosition = currentCameraPosition;
