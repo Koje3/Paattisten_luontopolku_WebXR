@@ -11,6 +11,9 @@ public class ShowInformation : MonoBehaviour
 
     public Camera arCamera;
 
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
     private bool showStartInformation;
     public int startInfoIndex;
     //private GameObject currentRevealCanvas;
@@ -42,10 +45,16 @@ public class ShowInformation : MonoBehaviour
 
         startingInformation[startInfoIndex].SetActive(false);
 
-        StartCoroutine(ShowStartInformation());
+        StartCoroutine(DelayStartInformation());
 
         showStartInformation = true;
 
+    }
+
+    public IEnumerator DelayStartInformation()
+    {
+        yield return new WaitForSeconds(1.5f);
+        StartCoroutine(ShowStartInformation());
     }
 
     // Update is called once per frame
@@ -65,6 +74,7 @@ public class ShowInformation : MonoBehaviour
                         showStartInformation = false;
                         StartCoroutine(HideStartInformation());
 
+                        audioSource.PlayOneShot(audioClip);
                     }
                 }
             }
@@ -74,6 +84,7 @@ public class ShowInformation : MonoBehaviour
         {
             showStartInformation = false;
             StartCoroutine(HideStartInformation());
+            audioSource.PlayOneShot(audioClip);
         }
 
 

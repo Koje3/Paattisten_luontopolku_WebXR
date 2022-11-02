@@ -12,7 +12,9 @@ public class FollowPlanet : MonoBehaviour
     public const float scaleFactor = 0.0001f;
 
     private Quaternion _moveAroundQuaternion;
-    private float rotationMoveSpeed = 1f;
+
+    //This controls rotation speed when button is pressed
+    private float rotationMoveSpeed = 0.85f;
 
     private bool isObjectCanvas;
     private Transform sceneCamera;
